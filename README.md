@@ -9,18 +9,19 @@ However i am not the team.
 
 **1: Clone the Repository**
 
-````bash
-    git clone https://github.com/Jawad-Ali-Soomro/chatbot-ui.git ```
-````
+```bash
+git clone https://github.com/Jawad-Ali-Soomro/chatbot-ui.git
+
+```
 
 **2: Install Dependencies**
 
-````bash
-    npm install ```
-````
+```bash
+    npm install
+```
 
 **2: You're All Set**
 
-````bash
-    npm run dev ```
-````
+```bash
+    npm run dev
+```
