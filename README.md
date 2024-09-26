@@ -7,22 +7,20 @@ However i am not the team.
 ![login page](./public/login.png)
 ![main page](./public/main%20screen.png)
 
-**Clone the repository**:
+**1: Clone the Repository**
 
 ````bash
-git clone https://github.com/Jawad-Ali-Soomro/chatbot-ui.git ```
+    git clone https://github.com/Jawad-Ali-Soomro/chatbot-ui.git ```
+````
 
-**Move To Direectory**:
- ```bash
- cd  chatbot-ui ```
+**2: Install Dependencies**
 
+````bash
+    npm install ```
+````
 
-**Install Dependencies**:
- ```bash
- npm install```
+**2: You're All Set**
 
-
-**All Set**:
- ```bash
- npm run dev```
+````bash
+    npm run dev ```
 ````
