@@ -27,7 +27,73 @@ const Home = () => {
       id: 2,
       chatPrompt: "what is cybersecurity can you aware me with this topic",
     },
+    {
+      id: 2,
+      chatPrompt: "what is cybersecurity can you aware me with this topic",
+    },
+    {
+      id: 2,
+      chatPrompt: "what is cybersecurity can you aware me with this topic",
+    },
+    {
+      id: 2,
+      chatPrompt: "what is cybersecurity can you aware me with this topic",
+    },
+    {
+      id: 2,
+      chatPrompt: "what is cybersecurity can you aware me with this topic",
+    },
+    {
+      id: 2,
+      chatPrompt: "what is cybersecurity can you aware me with this topic",
+    },
+    {
+      id: 2,
+      chatPrompt: "what is cybersecurity can you aware me with this topic",
+    },
+    {
+      id: 2,
+      chatPrompt: "what is cybersecurity can you aware me with this topic",
+    },
+    {
+      id: 2,
+      chatPrompt: "what is cybersecurity can you aware me with this topic",
+    },
+    {
+      id: 2,
+      chatPrompt: "what is cybersecurity can you aware me with this topic",
+    },
+    {
+      id: 2,
+      chatPrompt: "what is cybersecurity can you aware me with this topic",
+    },
+    {
+      id: 2,
+      chatPrompt: "what is cybersecurity can you aware me with this topic",
+    },
+
+    {
+      id: 2,
+      chatPrompt: "what is cybersecurity can you aware me with this topic",
+    },
+    {
+      id: 2,
+      chatPrompt: "what is cybersecurity can you aware me with this topic",
+    },
+    {
+      id: 2,
+      chatPrompt: "what is cybersecurity can you aware me with this topic",
+    },
+    {
+      id: 2,
+      chatPrompt: "what is cybersecurity can you aware me with this topic",
+    },
+    {
+      id: 2,
+      chatPrompt: "what is cybersecurity can you aware me with this topic",
+    },
   ];
+
   return (
     <div className="main-wrap flex col">
       <div
@@ -57,7 +123,7 @@ const Home = () => {
         </div>
         <div
           className="sample-chat flex col"
-          style={{ width: `${showMenu ? "200px" : "0px"}` }}
+          style={{ width: `${showMenu ? "260px" : "0px"}` }}
         >
           {sampleChat?.map((chat) => {
             return (
