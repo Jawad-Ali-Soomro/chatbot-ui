@@ -96,4 +96,70 @@
       align-items: center;
     }
   }
+
+  .side-bar {
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #111;
+    transition: 0.3s;
+    .bars {
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      right: -50px;
+      gap: 3px;
+      top: 20px;
+      cursor: pointer;
+      div {
+        width: 30px;
+        height: 1.5px;
+        background: white;
+      }
+    }
+    .logo {
+      position: absolute;
+      top: 20px;
+      img {
+        width: 100%;
+      }
+    }
+    .sample-chat {
+      gap: 10px;
+      .chat-card {
+        height: 40px;
+        width: 120%;
+        max-height: 60%;
+        overflow: scroll;
+        justify-content: start;
+        gap: 10px;
+        background: rgba(255, 255, 255, 0.1);
+        padding-left: 10%;
+        border-radius: 10px;
+        cursor: pointer;
+        overflow: hidden;
+      }
+      .chat-card:hover {
+        background: rgba(255, 255, 255, 0.2);
+      }
+    }
+    .icons {
+      position: absolute;
+      right: -50px;
+      bottom: 50px;
+      gap: 10px;
+      .icon {
+        width: 40px;
+        height: 40px;
+        border: 1px solid #80808090;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      .icon:hover {
+        background: rgba(255, 255, 255, 0.1);
+      }
+    }
+  }
 }
