@@ -17,11 +17,11 @@ git clone https://github.com/Jawad-Ali-Soomro/chatbot-ui.git
 **2: Install Dependencies**
 
 ```bash
-    npm install
+npm install
 ```
 
 **2: You're All Set**
 
 ```bash
-    npm run dev
+npm run dev
 ```
